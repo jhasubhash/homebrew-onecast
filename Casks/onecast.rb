@@ -1,6 +1,6 @@
 cask "onecast" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "297a5f680857ca9bf3d6faae7a895714131987d0269a8c23b1e38e1fff3acf72"
 
   url "https://github.com/jhasubhash/onecast/releases/download/v#{version}/Onecast-#{version}.dmg"
   name "Onecast"
