@@ -1,8 +1,11 @@
-# Onecast Homebrew tap
+# Moved to jhasubhash/tap
+
+Onecast's casks now live in [jhasubhash/homebrew-tap](https://github.com/jhasubhash/homebrew-tap),
+next to every other app's.
 
 ```sh
-brew install --cask jhasubhash/onecast/onecast
+brew install --cask jhasubhash/tap/onecast
 ```
 
-On an Intel Mac, install `jhasubhash/onecast/onecast-universal` instead. Onecast updates itself;
-the casks declare `auto_updates`, so `brew upgrade` leaves it alone.
+On an Intel Mac, install `jhasubhash/tap/onecast-universal` instead. If you installed from this tap,
+`brew update` moves you across on its own.
